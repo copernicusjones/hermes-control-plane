@@ -1,0 +1,11 @@
+{
+  "tests_discovered": 34,
+  "tests_run": 34,
+  "passed": 34,
+  "failed": 0,
+  "skipped": 0,
+  "exit_code": 0,
+  "network_attempts": 0,
+  "playwright_launches": 0,
+  "production_filesystem_writes": 0
+}

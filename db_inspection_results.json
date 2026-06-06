@@ -1,0 +1,15 @@
+{
+  "generator_timestamp": "2026-06-06T16:56:13.873218+00:00",
+  "backup_inspected": "deployment_ledger_backup_20260606-123742.db",
+  "schema_tables": [
+    "operations",
+    "operation_events",
+    "sqlite_sequence"
+  ],
+  "total_operations": 0,
+  "total_operation_events": 0,
+  "test_race_json_rows": 0,
+  "integrity_check": "ok",
+  "foreign_key_check": "OK",
+  "selection_reasoning": "The inspected backup contained zero operations and zero events. No recoverable ledger rows were found in that backup."
+}

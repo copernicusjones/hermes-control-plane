@@ -1,0 +1,9 @@
+{
+  "generator_timestamp": "2026-06-06T16:56:13.891795+00:00",
+  "blockers": [
+    "Credential and comprehensive binary/metadata PII remediation remain incomplete.",
+    "Discord credentials require manual portal action.",
+    "Gumroad verification and remediation are unaddressed.",
+    "A read-only remote reconciliation or reviewed baseline import is needed to prevent duplicates since the ledger has 0 rows."
+  ]
+}

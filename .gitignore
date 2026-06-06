@@ -1,0 +1,16 @@
+.env
+.env.*
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite
+*.sqlite3
+*.db-shm
+*.db-wal
+browser_profile/
+results/
+pending_approvals/
+approval_archive/
+quarantine/

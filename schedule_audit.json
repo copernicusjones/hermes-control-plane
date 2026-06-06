@@ -1,0 +1,16 @@
+{
+  "generator_timestamp": "2026-06-06T16:56:13.889675+00:00",
+  "crontab_status": "crontab: no crontab for jon",
+  "launchctl_relevant_matches": [
+    "63982\t-5\tai.saint.bridge",
+    "69610\t-9\tcom.apple.ap.promotedcontentd",
+    "55336\t-9\tcom.apple.synapse.contentlinkingd",
+    "-\t78\tcom.franklin.discord-bot",
+    "86651\t1\tai.hermes.gateway",
+    "42318\t0\tapplication.com.hnc.Discord.190103429.190103436",
+    "-\t0\tcom.logmein.GoToMeeting.G2MAIRUploader",
+    "81820\t-9\tcom.apple.podcasts.PodcastContentService"
+  ],
+  "schedule_tool_action": "The previous agent used default_api:schedule purely as a one-shot wait timer. It did not install recurring jobs.",
+  "conclusion": "No active automation or schedules matching search patterns were found running."
+}

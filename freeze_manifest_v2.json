@@ -1,0 +1,74 @@
+[
+  {
+    "path": "/Users/jon/.hermes/deployment_ledger.db",
+    "size_bytes": 40960,
+    "mtime_iso": "2026-06-06T12:37:42.014629",
+    "sha256": "6880b21c8761a0282ca13c2970816037ba8e988b82dc37e75a776e48e6e9ee1b"
+  },
+  {
+    "path": "/Users/jon/.hermes/deployment_ledger.db-shm",
+    "status": "NOT_FOUND"
+  },
+  {
+    "path": "/Users/jon/.hermes/deployment_ledger.db-wal",
+    "status": "NOT_FOUND"
+  },
+  {
+    "path": "/Users/jon/.hermes/deployment_ledger.pre-sqlite.json",
+    "status": "NOT_FOUND"
+  },
+  {
+    "path": "/Users/jon/.hermes/scripts/migrate_ledger.py",
+    "size_bytes": 5135,
+    "mtime_iso": "2026-06-06T12:23:41.964779",
+    "sha256": "fbc08ed02889efe109dcd46adf2cbd96a2e3abcb84c051a2c2bbfe6c2bc8798a"
+  },
+  {
+    "path": "/Users/jon/.hermes/scripts/fix_schema.py",
+    "size_bytes": 2922,
+    "mtime_iso": "2026-06-06T12:37:41.923803",
+    "sha256": "0ffeb5b1cb928474006f9bfe3f3761e0fa5aed757e13caa40b3bc5fb033f8541"
+  },
+  {
+    "path": "/Users/jon/.hermes/scripts/approve.py",
+    "size_bytes": 13178,
+    "mtime_iso": "2026-06-06T12:38:24.548667",
+    "sha256": "b9865b2db3cd9e51270f69c5b17b3c4899ff280e68b6abd04463aa7cca10e062"
+  },
+  {
+    "path": "/Users/jon/.hermes/scripts/x_poster.py",
+    "size_bytes": 3950,
+    "mtime_iso": "2026-06-06T12:38:38.239220",
+    "sha256": "e9cb8b3f238c67bafed62a035ab6c1cd2c80c113d00f8cb12d156fefa2f97b9d"
+  },
+  {
+    "path": "/Users/jon/.hermes/scripts/reconcile_stale_dispatch.py",
+    "size_bytes": 1797,
+    "mtime_iso": "2026-06-06T12:38:46.396516",
+    "sha256": "ac8dfe919ced94fa3173c065fdee90f848b3e18076e5b6eb07e36fd6c645085f"
+  },
+  {
+    "path": "/Users/jon/.hermes/scripts/test_isolated_suite.py",
+    "size_bytes": 5895,
+    "mtime_iso": "2026-06-06T12:39:12.546609",
+    "sha256": "caa4f9d6b33469e25631bafbef06165eda2a4fed70b881010190a5aee9f064fe"
+  },
+  {
+    "path": "/Users/jon/.hermes/scripts/check_timeline.py",
+    "size_bytes": 1015,
+    "mtime_iso": "2026-06-06T12:32:13.028201",
+    "sha256": "b2fc38346f99363df8bd7efc62c6e4c857b2084997fb63641ce35e41030457f3"
+  },
+  {
+    "path": "/Users/jon/.hermes/scripts/test_approve_concurrency.py",
+    "size_bytes": 1230,
+    "mtime_iso": "2026-06-06T12:24:54.837851",
+    "sha256": "09f6149cc8f9b5d3d9212509b4267bd04b34c2cb88ef3c58da0657580a43bb90"
+  },
+  {
+    "path": "/Users/jon/Documents/novaaaaa/operations/evidence/deployment_ledger_backup_20260606-123742.db",
+    "size_bytes": 24576,
+    "mtime_iso": "2026-06-06T12:38:23.434166",
+    "sha256": "3fb507c351f94d499f3b36e44fa02b73b69e0a517e1c37aa10f4996d8ab308ba"
+  }
+]
