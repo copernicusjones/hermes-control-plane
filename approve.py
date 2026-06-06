@@ -6,7 +6,7 @@ import httpx
 from pathlib import Path
 import subprocess
 import shutil
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 import hashlib
 import uuid
 import socket
@@ -104,9 +104,11 @@ def execute_approval(filename, is_test_env=False):
                 VALUES (?, ?, ?, ?, ?, ?)
             ''', (op_id, None, "RESERVED", now_iso, worker_id, "Reservation claimed"))
 
+            lease_expires_iso = (datetime.now(timezone.utc) + timedelta(seconds=120)).isoformat()
+            
             cur = conn.execute('''
-                UPDATE operations SET state = 'DISPATCHING' WHERE operation_id = ? AND state = 'RESERVED'
-            ''', (op_id,))
+                UPDATE operations SET state = 'DISPATCHING', lease_expires_at = ? WHERE operation_id = ? AND state = 'RESERVED'
+            ''', (lease_expires_iso, op_id))
             
             conn.execute('''
                 INSERT INTO operation_events (operation_id, prior_state, new_state, timestamp, worker, reason)

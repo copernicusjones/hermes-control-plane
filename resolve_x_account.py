@@ -24,14 +24,19 @@ def resolve_x_account(is_test=False):
             channel="chrome"
         )
         page = browser.pages[0]
-        page.goto("https://x.com")
+        page.goto("https://x.com", wait_until="domcontentloaded")
         
         # Wait for the account menu or handle to appear (read-only inspection)
         try:
-            # We would normally extract the handle from the DOM.
-            # Using a robust placeholder for the known logged-in session.
-            handle = "idkpickoneforme"
+            # We extract the handle from the DOM.
+            profile_link = page.wait_for_selector('a[data-testid="AppTabBar_Profile_Link"]', timeout=15000)
+            href = profile_link.get_attribute("href")
             
+            if href and href.startswith("/"):
+                handle = href[1:]
+            else:
+                raise Exception("Failed to extract valid handle from href")
+                
             res = {
                 "canonical_account_id": handle,
                 "current_handle": handle,

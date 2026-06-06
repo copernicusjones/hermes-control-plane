@@ -17,7 +17,7 @@ The `test_approve_concurrency.py` incident has been thoroughly investigated.
 - Database records (`deployment_ledger_backup_*.db`) were hashed and queried: 0 rows existed.
 - Pending queue remnants confirmed `test_race.json` remained stranded un-executed.
 - Captured test output from the prior run proved a python stack crash inside `multiprocessing` before any network or browser code invoked.
-- **Classification**: `NO_DISPATCH_OCCURRED`. The evidence proves strictly that no reservation was successfully written, no `x_poster.py` process was launched, and no network payload left the environment.
+- **Classification**: `INSUFFICIENT_EVIDENCE`. The test mock did not strictly isolate subprocess calls. While no post was observed natively, the exact timeline and state matching criteria requires a conclusive classification of insufficient evidence rather than disproven execution.
 
 ## 2. Ledger Recovery & Migration
 A complete inventory was executed across all preserved backups.

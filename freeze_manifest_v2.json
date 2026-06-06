@@ -1,9 +1,9 @@
 [
   {
     "path": "/Users/jon/.hermes/deployment_ledger.db",
-    "size_bytes": 40960,
-    "mtime_iso": "2026-06-06T12:37:42.014629",
-    "sha256": "6880b21c8761a0282ca13c2970816037ba8e988b82dc37e75a776e48e6e9ee1b"
+    "size_bytes": 49152,
+    "mtime_iso": "2026-06-06T13:38:41.401917",
+    "sha256": "bd5118e4402b91e245645268bb8fdadecdd83dc329d71270805912b645b07eb2"
   },
   {
     "path": "/Users/jon/.hermes/deployment_ledger.db-shm",
@@ -31,21 +31,21 @@
   },
   {
     "path": "/Users/jon/.hermes/scripts/approve.py",
-    "size_bytes": 13178,
-    "mtime_iso": "2026-06-06T12:38:24.548667",
-    "sha256": "b9865b2db3cd9e51270f69c5b17b3c4899ff280e68b6abd04463aa7cca10e062"
+    "size_bytes": 8138,
+    "mtime_iso": "2026-06-06T13:35:47.334783",
+    "sha256": "297a4d3d6adb96faa67122901ccdf0499d7bdc6a9fd4f0d3e7b7157f2349f3aa"
   },
   {
     "path": "/Users/jon/.hermes/scripts/x_poster.py",
-    "size_bytes": 3950,
-    "mtime_iso": "2026-06-06T12:38:38.239220",
-    "sha256": "e9cb8b3f238c67bafed62a035ab6c1cd2c80c113d00f8cb12d156fefa2f97b9d"
+    "size_bytes": 4152,
+    "mtime_iso": "2026-06-06T12:47:39.063258",
+    "sha256": "197da920811d3c9ecb48c132e50caa44582788733780bedb6419925d74f765f5"
   },
   {
     "path": "/Users/jon/.hermes/scripts/reconcile_stale_dispatch.py",
-    "size_bytes": 1797,
-    "mtime_iso": "2026-06-06T12:38:46.396516",
-    "sha256": "ac8dfe919ced94fa3173c065fdee90f848b3e18076e5b6eb07e36fd6c645085f"
+    "size_bytes": 3156,
+    "mtime_iso": "2026-06-06T13:35:58.484465",
+    "sha256": "78e3b874698eb70fa16ec83a703bda52295e6c71d18efcb33fca7682dee2c998"
   },
   {
     "path": "/Users/jon/.hermes/scripts/test_isolated_suite.py",
@@ -64,6 +64,48 @@
     "size_bytes": 1230,
     "mtime_iso": "2026-06-06T12:24:54.837851",
     "sha256": "09f6149cc8f9b5d3d9212509b4267bd04b34c2cb88ef3c58da0657580a43bb90"
+  },
+  {
+    "path": "/Users/jon/Documents/novaaaaa/operations/evidence/db_inspection_results.json",
+    "size_bytes": 508,
+    "mtime_iso": "2026-06-06T13:39:36.482633",
+    "sha256": "c8e272248e7d40f848a7207de7d3fa87aa2deb971509f08ec8a94c72bf342668"
+  },
+  {
+    "path": "/Users/jon/Documents/novaaaaa/operations/evidence/migration_reconciliation.json",
+    "size_bytes": 206,
+    "mtime_iso": "2026-06-06T13:39:36.498206",
+    "sha256": "185e5ab85971c3845395d50d59faae40cc584858078214a287f500deda2fc20e"
+  },
+  {
+    "path": "/Users/jon/Documents/novaaaaa/operations/evidence/incident_reconciliation.json",
+    "size_bytes": 618,
+    "mtime_iso": "2026-06-06T13:39:36.483047",
+    "sha256": "ee9409c76cb562d2cefebfa9994c68718769cfb986401dd6ff081e4ac0e5afee"
+  },
+  {
+    "path": "/Users/jon/Documents/novaaaaa/operations/evidence/schedule_audit.json",
+    "size_bytes": 776,
+    "mtime_iso": "2026-06-06T13:39:36.497174",
+    "sha256": "dc2b7bca5e99fcaec7e2c1b9aa9a177300d235ae9693a2bf473cd745fe00fc45"
+  },
+  {
+    "path": "/Users/jon/Documents/novaaaaa/operations/evidence/test_results_v4.json",
+    "size_bytes": 202,
+    "mtime_iso": "2026-06-06T13:39:31.199213",
+    "sha256": "17907022a050137ebe6f1c5b4f642f0b9fa8a7ed2c139f789343f694c1ca220b"
+  },
+  {
+    "path": "/Users/jon/Documents/novaaaaa/operations/evidence/remaining_blockers.json",
+    "size_bytes": 418,
+    "mtime_iso": "2026-06-06T13:39:36.498562",
+    "sha256": "1cbe4fdaf99a066db4dcd4d823d9580eabb78f367351c5e60ee1a4786684c7b4"
+  },
+  {
+    "path": "/Users/jon/Documents/novaaaaa/operations/evidence/phase-3-ledger-recovery-and-dispatch-integrity-report-2026-06-06.md",
+    "size_bytes": 4150,
+    "mtime_iso": "2026-06-06T13:38:00.832727",
+    "sha256": "6977a57587a3e7f6adefde90f274ed2af484834b28bfe8436d62067f481c1e79"
   },
   {
     "path": "/Users/jon/Documents/novaaaaa/operations/evidence/deployment_ledger_backup_20260606-123742.db",

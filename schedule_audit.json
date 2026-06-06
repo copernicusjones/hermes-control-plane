@@ -1,8 +1,8 @@
 {
-  "generator_timestamp": "2026-06-06T16:56:13.889675+00:00",
+  "generator_timestamp": "2026-06-06T17:39:36.496911+00:00",
   "crontab_status": "crontab: no crontab for jon",
   "launchctl_relevant_matches": [
-    "63982\t-5\tai.saint.bridge",
+    "77342\t-5\tai.saint.bridge",
     "69610\t-9\tcom.apple.ap.promotedcontentd",
     "55336\t-9\tcom.apple.synapse.contentlinkingd",
     "-\t78\tcom.franklin.discord-bot",
